@@ -1,6 +1,6 @@
 * {
     font-family: Helvetica;
-    font-size: 22px;
+    /* font-size: 22px; */
     color: seashell;
     background-color: black;
     opacity: 0.9;
@@ -9,20 +9,37 @@
 /* Navigation Bar */
 
 .header {
-    height: 69px;
+    max-height: 69px;
+    margin: 10px;
+    padding: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 1px solid seashell;
+}
+
+.header-menu {
+    display: inline-flex;
+    gap: 10px;
+    list-style-type: none;
+    text-decoration: underline;
 }
 
 #tea-cozy-logo {
     max-height: 50px;
 }
 
-.header-menu {
-    display: inline-flex;
-    gap: 2rem;
-    justify-content: flex-end;
-    list-style-type: none;
-    text-decoration: underline;
+/* Banner */
+
+.banner {
+    max-height: 700px;
+    max-width: 1200px;
+    text-align: center;
 }
+
+/* .banner-text {
+} */
+
+#mission-bkg {
+    max-height: 300px;
+}
+    
