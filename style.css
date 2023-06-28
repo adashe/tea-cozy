@@ -40,6 +40,29 @@
 } */
 
 #mission-bkg {
-    max-height: 300px;
+    max-height: 300px;  /* change to 700 */
 }
     
+
+/* Whats Steeping */
+
+.whats-steeping {
+    max-width: 1000px;
+}
+
+.whats-steeping-text {
+    text-align: center;
+}
+
+.whats-steeping-cards {
+    display: inline-flex;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whats-steeping img {
+    max-height: 200px;
+    max-width: 300px;
+}
