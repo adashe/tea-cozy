@@ -69,7 +69,24 @@
 
 /* Locations */
 
-/* Add location css here */
+.locations {
+    text-align: center;
+}
+
+.locations img {
+    max-height: 300px; /* change to 500px */
+}
+
+.locations-cards-container {
+    display: inline-flex;
+    justify-content: center;
+    max-width: 1000px
+}
+
+.location-card {
+    gap: 40px;
+    flex-basis: 300px;
+}
 
 /* Footer */
 
