@@ -1,0 +1,28 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* Navigation Bar */
+
+.header {
+    height: 69px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid seashell;
+}
+
+#tea-cozy-logo {
+    max-height: 50px;
+}
+
+.header-menu {
+    display: inline-flex;
+    gap: 2rem;
+    justify-content: flex-end;
+    list-style-type: none;
+    text-decoration: underline;
+}
