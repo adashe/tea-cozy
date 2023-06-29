@@ -31,19 +31,20 @@
 /* Banner */
 
 .banner {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+#mission-bkg {
     max-height: 700px;
     max-width: 1200px;
     text-align: center;
 }
-
-/* .banner-text {
-} */
-
-#mission-bkg {
-    max-height: 300px;  /* change to 700 */
-}
     
-
 /* Whats Steeping */
 
 .whats-steeping {
